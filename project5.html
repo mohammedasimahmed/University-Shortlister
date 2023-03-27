@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Shortlister</title>
+    <link rel="icon"
+        href="data:image/png;base64,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"
+        type="image/icon type">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            background-color: white;
+            height: 50px;
+            padding: 3px;
+            align-items: center;
+            border: 2px solid black;
+        }
+
+        img.LogoSell {
+            height: 56px;
+            margin-right: 4px;
+        }
+
+        div.SellText {
+            font-weight: 200;
+            font-size: large;
+        }
+
+        body {
+            background-image: linear-gradient(to right, #45afdc, #b36aa3);
+        }
+
+        div.container {
+            display: flex;
+            min-height: auto;
+            width: 900px;
+            border: 5px solid orange;
+            margin-top: 15vh;
+            margin-left: 12vw;
+            background-color: white;
+            padding: 50px;
+            background-image: linear-gradient(to right, #36d1dc, #5b86e5);
+
+        }
+
+        div.text {
+            width: 94%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .a {
+            display: block;
+            margin-bottom: 5px;
+            width: 94%;
+            padding: 5px;
+            border: none;
+            margin-top: 5px;
+        }
+
+        .formContainer {
+            display: inline-block;
+            min-height: 220px;
+            border: 4px solid darkblue;
+            width: 301px;
+            padding: 20px;
+            background-color: skyblue;
+
+        }
+
+        .submit {
+            padding: 5px;
+            width: 98%;
+            color: white;
+            font-size: medium;
+            background-color: green;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            height: 100%;
+        }
+
+        .inputContainer {
+            display: block;
+            margin-left: 60px;
+            height: 50px;
+            width: 425px;
+            background-color: lightblue;
+            padding: 3px;
+            margin-top: 10px;
+
+        }
+
+        .listValue {
+            font-size: large;
+            margin: 2px;
+        }
+
+        .alignInput {
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            min-height: auto;
+            align-items: start;
+        }
+
+        #cName,
+        #cLocation {
+            color: darkred;
+            font-weight: 500;
+            font-size: large;
+        }
+
+        .b {
+            font-size: large;
+        }
+
+        .btnDel {
+            background-color: #f00;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: medium;
+            padding: 6px;
+            color: white;
+        }
+
+        @media screen and (max-width: 1160px) and (min-width: 874px) {
+            div.container {
+                width: 650px;
+            }
+
+            .formContainer {
+                width: 270px;
+            }
+
+            .inputContainer {
+                margin-left: 25px;
+                height: 38px;
+                width: 372px;
+            }
+
+            .listValue {
+                font-size: medium;
+            }
+        }
+
+        @media screen and (max-width: 874px) and (min-width: 688px) {
+            div.container {
+                width: 480px;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .formContainer {
+                width: 390px;
+                margin-bottom: 5px;
+            }
+
+
+            .inputContainer {
+                margin-left: 0px;
+                padding: 2px;
+                min-height: auto;
+                width: 430px;
+
+            }
+
+            .list {
+                flex-wrap: wrap;
+                min-height: auto;
+            }
+
+            .listValue {
+                font-size: medium;
+                margin: 5px;
+            }
+        }
+
+        @media screen and (max-width: 688px) {
+            div.container {
+                width: 94vw;
+                margin-left: 0;
+                padding-left: 4vw;
+                padding-right: 0;
+                border: 1vw solid orange;
+                flex-direction: column;
+            }
+
+            .formContainer {
+                width: 80%;
+                margin-bottom: 5px;
+            }
+
+            .inputContainer {
+                margin-left: 0;
+                width: 88%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="Itemsell">
+        <img src="data:image/png;base64,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"
+            alt="" class="LogoSell">
+        <div class="SellText">Shortlist Universities</div>
+    </nav>
+    <div class="container">
+        <div class="formContainer">
+            <div class="text">Enter The University's Name</div>
+            <form action="">
+                <label for="" class="b">University Name :</label>
+                <div id="cName"></div>
+                <input type="text" class="name a" placeholder="Name">
+                <label for="" class="b">University Location:</label>
+                <div id="cLocation"></div>
+                <input type="text" class="locations a" placeholder="Location">
+                <label for="" class="b">Graduation Year:</label>
+                <input type="number" class="graduationYear a" step="1" value="2026">
+            </form>
+            <button class="submit">SUBMIT</button>
+        </div>
+        <div class="alignInput">
+
+        </div>
+
+    </div>
+    <script src="project5.js"></script>
+</body>
+
+</html>
